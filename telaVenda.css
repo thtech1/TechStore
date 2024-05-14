@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#e91111, #dfaf14e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário */
+    left: 400px; /* Ajuste conforme necessário */
+}
+
+#formVenda {
+
+    padding: 40px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#formVenda label {
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#formVenda input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+#formVenda input:focus {
+    border-color: rgb(0, 0, 0);
+}
+
+#formVenda button {
+    background: rgba(233, 233, 233, 0);
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#formVenda button:hover {
+    background: #eeeeee00;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #b30b0b,
+                0 0 25px #f45b03,
+                0 0 50px #f4b403,
+                0 0 100px #f4f003d0;
+}
+
+.back-button {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}

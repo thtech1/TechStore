@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#e91111, #dfaf14e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-box {
+    width: 90%;
+    max-width: 800px; /* Limita a largura da caixa */
+    padding: 40px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.back-button {
+    color: #fff;
+   
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.back-button:hover {
+    background: linear-gradient(#e91111, #dfaf14e3);
+}
+
+.login-button:hover, .back-button:hover {
+    background: #eeeeee00;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #b30b0b,
+                0 0 25px #f45b03,
+                0 0 50px #f4b403,
+                0 0 100px #f4f003d0;
+}

@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $servername = "localhost";
         $username = "root"; 
         $password = ""; 
-        $dbname = "automotivo"; 
+        $dbname = "TechStore"; 
 
         // Conexão com o banco de dados
         $conn = new mysqli($servername, $username, $password, $dbname,3307);

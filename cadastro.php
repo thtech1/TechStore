@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro de Peças</title>
+  <title>Cadastro de Peça</title>
   <link rel="stylesheet" href="cadastro_pecas.css">
 </head>
 

@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "automotivo";
+$dbname = "TechStore";
 
 //conectar para o sql local//
 

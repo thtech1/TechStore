@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Venda</title>
+    <title>Tela de Vendas</title>
     <link rel="stylesheet" href="telaVenda.css">
 </head>
 

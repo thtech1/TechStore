@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "automotivo";
+    $dbname = "TechStore";
     
     $nome_peca = $_POST["nome_peca"];
     $fornecedor = $_POST["fornecedor"];

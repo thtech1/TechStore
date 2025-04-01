@@ -10,7 +10,7 @@
 <div class="login-box">
 
   <img src="_img/logo.png" alt="Logo" class="logo" width="590">
-  <p>Na estrada da vida, seu veículo é mais do que um meio de transporte; é sua conexão com o mundo, um companheiro de jornada.<br>Na Fênix Autopeças, entendemos a importância de manter essa ligação forte e confiável. Somos mais do que uma<br> loja de peças automotivas; somos os guardiões da sua segurança e do desempenho do seu veículo.</p>
+  <p>Na estrada da vida, seu veículo é mais do que um meio de transporte; é sua conexão com o mundo</p>
   <form>
     <a href="cadastro.php" class="user-box">
       <span></span>

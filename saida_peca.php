@@ -4,6 +4,8 @@ $username = "root";
 $password = "";
 $dbname = "automotivo";
 
+//conectar para o sql local//
+
 
 $conn = new mysqli($servername, $username, $password, $dbname,3307);
 
